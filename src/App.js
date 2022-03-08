@@ -6,6 +6,7 @@ return(
   <div> 
   <h1> {counter}</h1>
   <h4> {counter}</h4>
+  <button onClick={()=> changeCounter(Math.floor(Math.random()* 100))}>Click me</button>
  </div>
 )
 }
